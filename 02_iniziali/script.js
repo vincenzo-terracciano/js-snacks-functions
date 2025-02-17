@@ -6,7 +6,17 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 // Dichiara la funzione qui.
 
 /* function declaration */
-function firstLetter(names) {
+/* function firstLetter(names) {
+    let newArray = [];
+    for (let i = 0; i < names.length; i++) {
+        first = names[i];
+        newArray.push(first[0]);
+    }
+    return newArray;
+} */
+
+    /* arrow function */
+const firstLetter = (names) => {
     let newArray = [];
     for (let i = 0; i < names.length; i++) {
         first = names[i];
