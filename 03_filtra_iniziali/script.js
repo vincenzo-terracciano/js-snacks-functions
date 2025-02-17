@@ -1,15 +1,30 @@
 /* Scrivi una funzione che accetti un'array di stringhe e una lettera e restituisca un array contenente solo le parole che iniziano con quella lettera */
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
-let letter = "A";
+const letter = "A";
 
 // Dichiara la funzione qui.
-function letterA(names, letter) {
+
+/* function declaration */
+/* function letterA(names, letter) {
     let newArray = [];
     for (let i = 0; i < names.length; i++) {
         name = names[i];
 
-        if(letter[0] === name[0]) {
+        if(letter === name[0]) {
+            newArray.push(name);
+        }
+    }
+    return newArray;
+} */
+
+/* arrow function */
+const letterA = (names, letter) => {
+    let newArray = [];
+    for (let i = 0; i < names.length; i++) {
+        name = names[i];
+
+        if(letter === name[0]) {
             newArray.push(name);
         }
     }
