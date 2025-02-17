@@ -5,7 +5,7 @@ const word = 'javascript';
 // Dichiara la funzione qui.
 
 /* function declaration */
-/* function howManyVocal (word) {
+/* function howManyVocal(word) {
     let vocal = 0;
     for( let i = 0; i < word.length; i++) {
         character = word[i];
